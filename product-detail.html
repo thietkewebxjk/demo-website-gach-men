@@ -348,102 +348,117 @@
 	<a class="back-to-top"><i class="fa fa-angle-up"></i></a>
 </footer>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<style type="text/css">
-		.modal-dialog{
-			max-width: 960px;
-		}
-		.modal-body{
-			text-align: center;
-		}
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<style type="text/css">
+			.modal-dialog{
+				max-width: 960px;
+			}
+			.modal-body{
+				text-align: center;
+			}
 
-		.model-form .fr-input{
-			width: 100%;
-			border:1px solid #e5e5e5;
-			background-color: #f5f5f5;
-			padding: 15px 15px;
-			color: #ccccd4;
-			margin-top: 5px;
-		}
+			.model-form .fr-input{
+				width: 100%;
+				border:1px solid #e5e5e5;
+				background-color: #f5f5f5;
+				padding: 15px 15px;
+				color: #ccccd4;
+				margin-top: 5px;
+			}
 
-		.title-form,.modal-body h4{
-			text-transform: uppercase;
-		}
+			.title-form,.modal-body h4{
+				text-transform: uppercase;
+			}
 
-		.fr-right{
-			text-align: left;
-		}
+			.fr-right{
+				text-align: left;
+			}
 
-		.fr-right textarea{
-			height: 140px;
-			min-height: 140px;
-			width: 100%;
-			border:1px solid #e5e5e5;
-			background-color: #f5f5f5;
-			padding: 15px 15px;
-			color: #ccccd4;
-			margin-top: 5px;
-		}
+			.fr-right textarea{
+				height: 140px;
+				min-height: 140px;
+				width: 100%;
+				border:1px solid #e5e5e5;
+				background-color: #f5f5f5;
+				padding: 15px 15px;
+				color: #ccccd4;
+				margin-top: 5px;
+			}
 
-		.fr-right .submit{
-			padding: 15px 32px;
-			background-color: #2ecc71;
-			border: none;
-			color: white;
-			text-transform: uppercase;
-			font-weight: bold;
-			font-size: 14px;
-			margin-top: 25px;
-		}
-		.fr-right h5{
-			text-transform: uppercase;
-		}
+			.fr-right .submit{
+				padding: 15px 32px;
+				background-color: #2ecc71;
+				border: none;
+				color: white;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 14px;
+				margin-top: 25px;
+			}
+			.fr-right h5{
+				text-transform: uppercase;
+			}
 
-		.fr-right select{
-			background-color: white;
-			color: black;
-			width: 100%;
-			border:1px solid #e5e5e5;
-			background-color: #f5f5f5;
-			padding: 15px 15px;
-			margin-top: 5px;
-		}
-		.thumbs{display: inline-block;width: 100%;}
-	</style>
-	<div class="modal-content">
-		<div class="modal-body">
-			<h4>Yêu cầu báo giá</h4>
-			<p>Nếu Quý khách có đã ý tưởng thiết kế hoặc cần báo giá dựa trên thiết kế đó, vui lòng điền thông tin dưới đây. Hoặc xem các mẫu thiết kế có sẵn tại đây.</p>
-			<form method="POST" action="">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
-						<h5 class="title-form">Đăng kí báo giá</h5>
-						<div class="model-form">
-							<input class="fr-input" required id="name" type="text" name="" placeholder="Tên khách hàng *">
-							<input class="fr-input" required id="company" type="text" name="" placeholder="Công ty">
-							<input class="fr-input" required id="email" type="email" name="" placeholder="Email *">
-							<input class="fr-input" required id="address" type="text" name="" placeholder="Địa chỉ">
-							<input class="fr-input" required id="phone" type="tel" name="" placeholder="Điện thoại">
+			.fr-right select{
+				background-color: white;
+				color: black;
+				width: 100%;
+				border:1px solid #e5e5e5;
+				background-color: #f5f5f5;
+				padding: 15px 15px;
+				margin-top: 5px;
+			}
+			.exampleModal{
+				position: relative;
+			}
+			.close{
+				position: absolute;
+				top: 0;
+				right: 0;
+				color: black;
+			}
+
+			.close i{
+				color: black;
+			}
+		</style>
+		<div class="modal-content">
+			<div class="modal-body">
+				<h4>Yêu cầu báo giá</h4>
+				<p>Nếu Quý khách có đã ý tưởng thiết kế hoặc cần báo giá dựa trên thiết kế đó, vui lòng điền thông tin dưới đây. Hoặc xem các mẫu thiết kế có sẵn tại đây.</p>
+				<form method="POST" action="">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+							<h5 class="title-form">Đăng kí báo giá</h5>
+							<div class="model-form">
+								<input class="fr-input" required id="name" type="text" name="" placeholder="Tên khách hàng *">
+								<input class="fr-input" required id="company" type="text" name="" placeholder="Công ty">
+								<input class="fr-input" required id="email" type="email" name="" placeholder="Email *">
+								<input class="fr-input" required id="address" type="text" name="" placeholder="Địa chỉ">
+								<input class="fr-input" required id="phone" type="tel" name="" placeholder="Điện thoại">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 fr-right">
+							<h5>Quý khách là</h5>
+							<select required>
+								<option>Thiết kế</option>
+								<option>Nhà thầu</option>
+								<option>Đại lý</option>
+								<option>Chủ nhà</option>
+							</select>
+							<textarea required placeholder="Nội dung thông tin cần yêu cầu"></textarea>
+							<input class="submit float-right" type="submit" name="" value="Gửi">
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 fr-right">
-						<h5>Quý khách là</h5>
-						<select required>
-							<option>Thiết kế</option>
-							<option>Nhà thầu</option>
-							<option>Đại lý</option>
-							<option>Chủ nhà</option>
-						</select>
-						<textarea required placeholder="Nội dung thông tin cần yêu cầu"></textarea>
-						<input class="submit float-right" type="submit" name="" value="Gửi">
-					</div>
-				</div>
-			</form>
-
+				</form>
+				<a class="close" href="#" title="Đóng" data-dismiss="modal">
+					<i class="fa fa-times-circle-o" aria-hidden="true"></i>
+				</a>
+				
+			</div>
 		</div>
 	</div>
-</div>
 </div>
 <!--  -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

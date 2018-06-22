@@ -324,7 +324,19 @@
 				padding: 15px 15px;
 				margin-top: 5px;
 			}
+			.exampleModal{
+				position: relative;
+			}
+			.close{
+				position: absolute;
+				top: 0;
+				right: 0;
+				color: black;
+			}
 
+			.close i{
+				color: black;
+			}
 		</style>
 		<div class="modal-content">
 			<div class="modal-body">
@@ -355,7 +367,10 @@
 						</div>
 					</div>
 				</form>
-
+				<a class="close" href="#" title="Đóng" data-dismiss="modal">
+					<i class="fa fa-times-circle-o" aria-hidden="true"></i>
+				</a>
+				
 			</div>
 		</div>
 	</div>

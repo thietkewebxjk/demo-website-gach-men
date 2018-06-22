@@ -16,7 +16,7 @@ jQuery(document).ready(function(t) {
     var i, r = (i = t(".detail-pro"), Math.max.apply(null, i.map(function() {
         return t(this).innerHeight()
     }).get()));
-    e < 600 && t(".detail-pro").height(400);
+    e < 600 && t(".detail-pro").height(r);
     var o = t(".list-news").height();
     t(".content-review").height(o - 40), t(".owl-carousel").owlCarousel({
         loop: !0,
