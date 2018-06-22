@@ -16405,3 +16405,10 @@ form.woocommerce-form.woocommerce-form-login.login {
     color:white;
 }
 
+.ui-slider-handle:first-child{
+    background-color: #799e3f!important;
+}
+
+.ui-slider-handle:last-child{
+    background-color: #ff5117!important;
+}
