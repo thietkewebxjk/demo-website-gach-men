@@ -13649,7 +13649,7 @@ div#___plusone_0 {
 }
 
 .detail-pro .post-img .detail-mask .button {
-    bottom: 20px;
+    bottom: 40%;
     width: 100%;
     text-align: center;
     left: 0;
@@ -13671,8 +13671,8 @@ div#___plusone_0 {
 }
 
 .detail-pro .post-img .detail-mask .button a:hover {
-    background: #2196F3;
-    border-color: #2196F3
+    background: #799e3f;
+    border-color: #799e3f
 }
 
 .detail-pro h4 {
