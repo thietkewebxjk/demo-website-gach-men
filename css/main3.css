@@ -13726,7 +13726,7 @@ div#___plusone_0 {
 }
 
 .detail-pro .add-to-cart a {
-    padding: 5px 30px;
+    padding: 5px 10px;
     border: 1px solid #ededed;
     color: #888;
     transition: all .3s
@@ -16404,3 +16404,4 @@ form.woocommerce-form.woocommerce-form-login.login {
     background-color: #00aced;
     color:white;
 }
+
