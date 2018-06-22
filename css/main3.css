@@ -13974,7 +13974,7 @@ header .menu-header .main-menu ul li ul li a {
 }
 
 header .menu-header .main-menu ul li:hover,header .menu-header .main-menu ul li.active {
-    background: #ff5117
+    background: #799e3f;
 }
 
 header .menu-header .main-menu ul li:hover ul {
@@ -15222,7 +15222,7 @@ footer .back-to-top i {
         position: absolute;
         z-index: 999;
         width: calc(100% - 30px);
-        background: rgba(0, 99, 209, .9)
+        background: rgb(121, 158, 63);
     }
     header .menu-header .main-menu ul,
     header .menu-header .main-menu ul li {
@@ -15231,7 +15231,7 @@ footer .back-to-top i {
     header .menu-header .main-menu ul li a {
         width: 100%;
         display: block;
-        border-bottom: 1px solid #2196F3
+        border-bottom: 1px solid white;
     }
     header .menu-header .main-menu ul li:hover ul li {
         background: 0 0
