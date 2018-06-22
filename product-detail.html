@@ -659,8 +659,8 @@
 	$thumbs.owlCarousel({
 		items: 4,
 		dots: false,
-		loop:true,
-		autoplay:true
+		// loop:true,
+		// autoplay:true
 	});
 
 	$thumbs.on('click', 'a', function(event) {
@@ -673,7 +673,9 @@
 		onChanged: function (event) {
 			var item = event.item.index; 
 			$thumbs.trigger('to.owl.carousel', item, 500);
-		}
+		},
+		loop:true,
+		autoplay:true
 	});
 </script>
 <script>(function(d, s, id) {
